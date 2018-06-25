@@ -48,3 +48,16 @@ datatable(iris, fillContainer = TRUE)
 library(DT)
 datatable(iris, fillContainer = TRUE, options = list(autoWidth = TRUE))
 ```
+
+### DT - @saurfang example
+
+From https://saurfang.github.io/pkgdown.example/reference/datatable.html
+
+```{r dt_saurfang}
+datatable(
+  iris, filter = 'bottom',
+  options = list(
+    autoWidth = TRUE
+  )
+)
+```
