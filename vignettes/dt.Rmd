@@ -51,13 +51,10 @@ datatable(iris, fillContainer = TRUE, options = list(autoWidth = TRUE))
 
 ### DT - @saurfang example
 
-From https://saurfang.github.io/pkgdown.example/reference/datatable.html
+Success! Using `filter` includes some extra CSS (`selectize` or `nouislider`) that apparently fixes the column width issue.
 
-```{r dt_saurfang}
-datatable(
-  iris, filter = 'bottom',
-  options = list(
-    autoWidth = TRUE
-  )
-)
+Hint from from https://saurfang.github.io/pkgdown.example/reference/datatable.html
+
+```{r dt_filter}
+datatable(iris, filter = 'bottom')
 ```
