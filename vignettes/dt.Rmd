@@ -22,39 +22,23 @@ Tables with `DT::datatable()` are not rendering correctly in pkgdown.
 
 Here's a bunch of different things I've tried.
 
-### DT
+## DT
+
+Currently DT tables fill the entire container, but the internal columns do not.
 
 ```{r dt}
 library(DT)
 datatable(iris)
 ```
 
-### DT - autoWidth
+## DT - filter
 
-```{r dt_width}
-library(DT)
-datatable(iris, options = list(autoWidth = TRUE))
-```
+Adding `filter` fixes the column width issue. Would be nice if columns widths were fixed without this.
 
-### DT - fillContainer
-```{r dt_fill}
-library(DT)
-datatable(iris, fillContainer = TRUE)
-```
-
-### DT - both fillContainer and autoWidth
-
-```{r dt_width_fill}
-library(DT)
-datatable(iris, fillContainer = TRUE, options = list(autoWidth = TRUE))
-```
-
-### DT - @saurfang example
-
-Success! Using `filter` includes some extra CSS (`selectize` or `nouislider`) that apparently fixes the column width issue.
+Issue filed at https://github.com/rstudio/DT/issues/563.
 
 Hint from from https://saurfang.github.io/pkgdown.example/reference/datatable.html
 
 ```{r dt_filter}
-datatable(iris, filter = 'bottom')
+datatable(iris, filter = 'top')
 ```
