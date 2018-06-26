@@ -20,7 +20,10 @@ Imports:
     plotly,
     DiagrammeR,
     MASS,
-    magrittr
+    magrittr,
+    networkD3,
+    rbokeh,
+    highcharter
 Suggests: 
     knitr,
     rmarkdown
