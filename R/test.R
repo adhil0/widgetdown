@@ -1,7 +1,6 @@
 #' Test case: widgets
 #'
 #' @name test-widgets
-#' @keywords internal
 #' @family tests
 #' @examples
 #' if (requireNamespace("htmltools", quietly = TRUE)) {
@@ -58,7 +57,6 @@ NULL
 #'   \item{a}{1}
 #'   \item{b}{2}
 #' }
-#' @keywords internal
 #' @family tests
 #' @name test-lists
 NULL
@@ -66,7 +64,6 @@ NULL
 #' Test case: links
 #'
 #' @name test-links
-#' @keywords internal
 #' @family tests
 #' @examples
 #' magrittr::subtract(10, 1)
@@ -80,7 +77,6 @@ NULL
 #' \figure{bacon.jpg}
 #'
 #' @name test-figures
-#' @keywords internal
 #' @family tests
 #' @examples
 #' x <- seq(0, 2 * pi, length = 25)
@@ -90,7 +86,6 @@ NULL
 #' Test case: don't
 #'
 #' @name test-dont
-#' @keywords internal
 #' @family tests
 #' @examples
 #' \dontrun{
@@ -112,6 +107,5 @@ NULL
 #'
 #' @name test-params
 #' @param ... ellipsis
-#' @keywords internal
 #' @family tests
 NULL

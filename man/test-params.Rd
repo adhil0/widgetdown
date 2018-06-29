@@ -14,4 +14,3 @@ Other tests: \code{\link{test-dont}},
   \code{\link{test-figures}}, \code{\link{test-links}},
   \code{\link{test-lists}}, \code{\link{test-widgets}}
 }
-\keyword{internal}
