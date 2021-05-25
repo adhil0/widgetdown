@@ -1,5 +1,8 @@
-pandoc: 2.2.1
-pkgdown: 1.1.0.9000
+pandoc: 2.11.4
+pkgdown: 1.6.1
 pkgdown_sha: ~
-articles: []
+articles:
+  dt: dt.html
+  widgetdown: widgetdown.html
+last_built: 2021-05-25T18:43Z
 

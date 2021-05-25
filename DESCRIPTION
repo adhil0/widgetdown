@@ -26,7 +26,8 @@ Imports:
     highcharter
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    markdown
 VignetteBuilder: knitr
 ByteCompile: true
 Encoding: UTF-8
